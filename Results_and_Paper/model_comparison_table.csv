@@ -1,0 +1,4 @@
+Model,ROC_AUC,Precision,Recall,F1_Score,Train_Time_s,Inference_ms_per_img
+"WGAN-GP Baseline (Margalef-Bentabol et al., 2020)",0.86,0.8,0.8,0.8,14400.0,1250.0
+Baseline Standard CAE (No Attention),0.7983,0.8513,0.83,0.8405,36.09,38.3
+Proposed Attention-Enhanced CAE (CBAM),0.8592,0.8994,0.805,0.8496,38.07,39.36
