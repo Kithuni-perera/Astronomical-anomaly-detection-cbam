@@ -42,7 +42,7 @@ SDSS DR17 Cutout (3x64x64)
               └──────────────┬───────────────┘
                              ▼
                Hybrid Anomaly Score & Ranking
-
+```
 
 ## Quantitative Benchmarks & Ablation Study
 Evaluated across **647 multi-band SDSS DR17 cutouts**, incorporating CBAM spatial and channel attention delivers a **+6.09% ROC-AUC improvement** over a standard Convolutional Autoencoder and surpasses the WGAN-GP baseline F1-score:
@@ -85,5 +85,6 @@ Astronomical-anomaly-detection-cbam/
     ├── top_anomalies_visualization.png       # Input vs. reconstruction vs. residual heatmaps
     ├── novel_discoveries_gallery.png         # Top 6 blind sky discoveries
     └── model_comparison_table.csv            # Quantitative benchmark metrics
+
 
 
