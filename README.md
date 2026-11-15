@@ -1,17 +1,14 @@
-<div align="center">
-
 # Real-Time Unsupervised Astronomical Anomaly Detection
-### CBAM-Enhanced Convolutional Autoencoders & Latent-Space Isolation Forests on SDSS DR17
+
+**CBAM-Enhanced Convolutional Autoencoders & Latent-Space Isolation Forests on SDSS DR17**
 
 [![Python](https://img.shields.io/badge/Python-3.10%2B-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
 [![PyTorch](https://img.shields.io/badge/PyTorch-2.0%2B-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)](https://pytorch.org/)
 [![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)](https://scikit-learn.org/)
 [![Dataset](https://img.shields.io/badge/SDSS-DR17%20SkyServer-4B0082?style=for-the-badge)](https://www.sdss.org/dr17/)
-[![Paper](https://img.shields.io/badge/IEEE%20Manuscript-PDF-B31B1B?style=for-the-badge&logo=adobeacrobatreader&logoColor=white)](IEEE_Astronomical_Anomaly_Detection.pdf)
+[![Paper](https://img.shields.io/badge/IEEE%20Manuscript-PDF-B31B1B?style=for-the-badge&logo=adobeacrobatreader&logoColor=white)](https://github.com/Kithuni-perera/Astronomical-anomaly-detection-cbam/blob/main/IEEE_Astronomical_Anomaly_Detection.pdf)
 
-*A lightweight, single-pass deep learning pipeline for real-time celestial outlier discovery and automated sky-survey quality control.*
-
-</div>
+> *A lightweight, single-pass deep learning pipeline for real-time celestial outlier discovery and automated sky-survey quality control.*
 
 ## Executive Summary
 Modern wide-field astronomical surveys such as the **Sloan Digital Sky Survey (SDSS DR17)** and upcoming **Vera C. Rubin Observatory (LSST)** generate petabytes of imaging data containing billions of celestial sources. Identifying rare astrophysical phenomena—such as **high-redshift quasars ($z > 3.0$)**, **ultra-faint low-surface-brightness (LSB) galaxies**, and **unflagged optical ghosting artifacts**—requires fast, unsupervised computer vision pipelines that operate without scarce spectroscopic labels.
